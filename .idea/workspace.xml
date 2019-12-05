@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34385fa0-cdcb-41ff-b03c-aebe0d3e5222" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liuweiwei/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liuweiwei/mapper/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liuweiwei/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liuweiwei/mapper/DepartmentMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34385fa0-cdcb-41ff-b03c-aebe0d3e5222" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -454,7 +450,7 @@
       <workItem from="1575421999433" duration="3986000" />
       <workItem from="1575442236176" duration="28265000" />
       <workItem from="1575517723577" duration="1573000" />
-      <workItem from="1575528385957" duration="240000" />
+      <workItem from="1575528385957" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1575527163561</created>
@@ -477,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575527405882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v1.0">
+      <created>1575528760113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575528760113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -513,12 +516,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46276000" />
+    <option name="totallyTimeSpent" value="46553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,7 +539,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32893288" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32819384" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32819384" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
