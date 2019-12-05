@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 使用Log4j输出日志文档 -->
+        <setting name="logImpl" value="LOG4J"/>
+        <!-- 使用JDBC的getGeneratedKeys获取数据库自增主键值 -->
+        <setting name="useGeneratedKeys" value="true" />
+        <!-- 使用列别名Alias替换列名 默认:true -->
+        <setting name="useColumnLabel" value="true" />
+        <!-- 开启驼峰命名转换:Table{create_time} -> Entity{createTime} -->
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
+    <typeAliases>
+        <package name="com.liuweiwei.bean"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <!-- JDBC - JdbcTransactionFactory -->
+            <!-- Manager - ManagedTransactionFactory -->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mysql?useSSL=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <package name="com.liuweiwei.mapper"/>
+    </mappers>
+</configuration>
